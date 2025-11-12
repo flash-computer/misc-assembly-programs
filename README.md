@@ -8,6 +8,7 @@ Included Programs:
 
 - x86_64/Linux:
 	+ [badcat](x86/amd64/linux/badcat): A bad clone of the unix cat, with no features or options and a buffer without checking for istty(). Still it works for 99% of the cases you can use cat for.
+	+ [syslinux.s](x86/amd64/misc/syslinux.s): A little include for some useful linux references.
 
 - x86_64/Platform Agnostic:
 	+ [bsprintf](x86/amd64/bsprintf): A decent _snprintf clone that does what it has to. Somehow a bug snuck in one of the later revisions, haven't gotten around to fixing it yet. Unlikely that I ever will.
